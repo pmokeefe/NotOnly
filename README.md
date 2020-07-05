@@ -1,7 +1,6 @@
 # NotOnly
 NotOnly Nothing is better than Nothing.
-- [ ] And the earth was without form, and void; and darkness was upon the face of the 
-deep.
+- [ ] And the earth was without form, and void; and darkness was upon the face of the deep.
 - [ ] [Genesis 1:2](https://en.wikipedia.org/wiki/Genesis_1:2), [King James Version](https://en.wikipedia.org/wiki/King_James_Version)
 <br/><br/> 
 
