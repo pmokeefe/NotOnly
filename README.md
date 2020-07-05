@@ -1,5 +1,5 @@
 # NotOnly
-*NotOnly Nothing is better than Nothing.*
+*"NotOnly Nothing is better than Nothing."*
 
 >"You're confusing the machine!" cried Trurl. But suddenly its metallic voice rang out:
 
@@ -7,4 +7,4 @@
 >> HOW THE WORLD WAS SAVED from the [*Cyberiad*](https://en.wikipedia.org/wiki/The_Cyberiad) by [Stanislaw Lem](https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lem)
 
 And the earth was without form, and void; and darkness was upon the face of the deep.
->> [Genesis 1:2](https://en.wikipedia.org/wiki/Genesis_1:2) [King James Version](https://en.wikipedia.org/wiki/King_James_Version)
+>> [Genesis 1:2](https://en.wikipedia.org/wiki/Genesis_1:2), [King James Version](https://en.wikipedia.org/wiki/King_James_Version)
