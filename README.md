@@ -1,2 +1,2 @@
 # NotOnly
-NotOnly nothing is better than nothing.  
+NotOnly Nothing is better than Nothing.  
