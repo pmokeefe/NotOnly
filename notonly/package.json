@@ -1,0 +1,25 @@
+{
+    "name": "notonly",
+    "displayName": "notOnly",
+    "description": "notOnly Nothing",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "non",
+            "aliases": ["notOnly", "non"],
+            "extensions": [".non",".notOnly",".Nothing",".notOnlyNonthing",".nonNothing"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "non",
+            "scopeName": "source.non",
+            "path": "./syntaxes/non.tmLanguage.json"
+        }]
+    }
+}
