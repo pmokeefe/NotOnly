@@ -1,18 +1,22 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "notOnly",
-	"patterns": [
-		{
-			"include": "#keywords"
-		}
-	],
+	"patterns": [{ "include": "#definition" }],
 	"repository": {
+		  "definition": {
+			"patterns": [{
+				"name": "keyword.control.non",
+				"match": "(keywords  ((\t | \r | [:space:])+ (!space)+)+ (\t|\r|[:space:])* \\n"
+			}]
+		},
+
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.non",
-				"match": "\\b(num|alt|cat)\\b"
+				"match": "\\b(top|hex|alt|cat)\\b"
 			}]
 		}
 	},
 	"scopeName": "source.non"
 }
+
