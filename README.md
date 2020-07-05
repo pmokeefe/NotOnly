@@ -1,5 +1,5 @@
 # NotOnly
-NotOnly Nothing is-better-than Nothing.
+NotOnly Nothing is_better_than Nothing.
 
 >"You're confusing the machine!" cried Trurl. But suddenly its metallic voice rang out:
 
