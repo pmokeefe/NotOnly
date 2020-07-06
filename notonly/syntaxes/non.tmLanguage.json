@@ -6,7 +6,7 @@
 		  "definition": {
 			"patterns": [{
 				"name": "keyword.control.non",
-				"match": "(keywords  ((\t | \r | [:space:])+ (!space)+)+ (\t|\r|[:space:])* \\n"
+				"match": "(keywords  ( ([:space:] | \t | \r | \f | \u000B)+ (!space)+ )+   ([:space:] | \t | \r | \f | \u000B)* \\n"
 			}]
 		},
 
