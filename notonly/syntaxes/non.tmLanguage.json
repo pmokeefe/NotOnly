@@ -3,19 +3,24 @@
 	"name": "notOnly",
 	"patterns": [{ "include": "#definition" }],
 	"repository": {
-		  "definition": {
-			"patterns": [{
-				"name": "keyword.control.non",
-				"match": "(keywords  ( ([:space:] | \t | \r | \f | \u000B)+ (!space)+ )+   ([:space:] | \t | \r | \f | \u000B)* \\n"
-			}]
-		},
-
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.non",
 				"match": "\\b(top|hex|alt|cat)\\b"
 			}]
+		},
+
+		"definition": {
+			"patterns": [{
+				"match": "(keywords  ( ([:space:] | \t | \r | \f | \u000B)+ (!space)+ )+   ([:space:] | \t | \r | \f | \u000B)* \\n",
+				"captures": {
+					"1": {
+						"name": "variable.name"
+					}
+				}
+			}]
 		}
+		
 	},
 	"scopeName": "source.non"
 }
