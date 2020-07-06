@@ -1,7 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "notOnly",
-	"patterns": [{ "include": "#definition" }],
+	"patterns": [{ "include": "#definition" },{ "include": "#keywords" }],
 	"repository": {
 		"keywords": {
 			"patterns": [{
