@@ -12,7 +12,7 @@
 
 		"definition": {
 			"patterns": [{
-				"match": "(keywords  ( ([:space:] | \t | \r | \f | \u000B)+ (!space)+ )+   ([:space:] | \t | \r | \f | \u000B)* \\n",
+				"match": "(keywords  ( ([:space:] | \t | \r | \f | \u000B)+ (!space)+ )+   ([:space:] | \t | \r | \f | \u000B)* (\\n | $)",
 				"captures": {
 					"1": {
 						"name": "variable.name"
